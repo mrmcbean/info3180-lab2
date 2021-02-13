@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<section class="profile">
+    <div class="profiletop"></div>
+        <img id="profilepic" src="{{ url_for('static', filename='profilepic.jpg')}}">
+
+        <h2 id="name"> <b>Shawn McBean</b></h2>
+        <ul class="info">
+            <li id="username">@sil</li>
+            <li id="location">Ocho Rios, Jamaica</li>
+            <li id="jdate"> Joined Feburary , 2021 {{format_date_joined}}</li>
+        </ul>   
+    </div>
+</section>
+
+<section class="profile2">
+
+    <div class="profilebottom">
+        
+        <p class=" bio">I am a photographer who enjoys taking pictures of nature, buildings, animals, and people. I'm also pretty good at web designs. Shoot me a dm to work together.</p>
+
+        <ul class="stats">
+            <li class="posts"> 
+                <p class="count"> <b>10</b> </p>
+                <p class="item"> Posts</p>
+            </li>
+
+            <li class="following"> 
+                <p class="count"> <b>36</b> </p>
+                <p class="item"> Following</p>
+            </li>
+
+            <li class="followers"> 
+                <p class="count"> <b>78.6K</b> </p>
+                <p class="item"> Followers</p>
+            </li>
+        </ul>
+
+        <button type="button"> Follow </button>
+        
+    </div>
+
+    
+        
+  
+
+</section>
+
+
+            
+{% endblock %}

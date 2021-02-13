@@ -1,3 +1,111 @@
 body {
+
     padding-top: 5rem;
+    font:white;
+    margin: auto;
+    width: auto;
+
+}
+
+section{
+
+    
+    box-shadow: black 10px; 
+}
+
+.profile{
+
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    background-color: rgb(105, 175, 255);
+    margin: auto;
+    width: 57.50%;
+    box-shadow: black 10px;
+}
+
+
+.profile2{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 20px;
+    background-color:rgb(236, 236, 228);
+    
+
+}
+
+ul{
+list-style-type: none;
+
+
+
+}
+img{
+    border-radius: 50%;
+    height: 175px;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profilebottom{
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+p{
+    padding-top: 15px;
+}
+p .stats{
+    padding-top:5px;
+}
+
+.profiletop{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column; 
+}
+
+.bio{
+    color: gray;
+    text-align: center;
+    width: 70%;
+}
+button{
+    color:gray;
+    margin: auto;
+    width: 25%;
+    border-radius: 10px;
+    padding: 2px;
+    background-color:rgb(105, 175, 255);
+    
+}
+
+.stats{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 2px;
+}
+
+
+.item{
+    color: gray;
+}
+
+.count{
+    margin-bottom: 1px;
 }
